@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Volkswagen Tiguan",
+    "image": "../images/items/volkswagenTiguan.jpg",
+    "year": 2019,
+    "mileage": 19855,
+    "transmission": "Automatic",
+    "engine": "Diesel",
+    "price": 34888,
+    "new": false,
+    "sold": false
+  },
+  {
+    "name": "Toyota Highlander XLE",
+    "image": "../images/items/volkswagenTiguan.jpg",
+    "year": 2014,
+    "mileage": 69000,
+    "transmission": "Automatic",
+    "engine": "Gas",
+    "price": 27875,
+    "new": true,
+    "sold": false
+  },
+  {
+    "name": "Lexus RX 350 LUXURY",
+    "image": "../images/items/volkswagenTiguan.jpg",
+    "year": 2017,
+    "mileage": 39850,
+    "transmission": "Automatic",
+    "engine": "Gas",
+    "price": 38775,
+    "new": false,
+    "sold": false
+  },
+  {
+    "name": "Toyota Highlander LE A...",
+    "image": "../images/items/volkswagenTiguan.jpg",
+    "year": 2016,
+    "mileage": 104000,
+    "transmission": "Automatic",
+    "engine": "Gas",
+    "price": 23728,
+    "new": false,
+    "sold": false
+  }
+]
