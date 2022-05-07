@@ -7,6 +7,8 @@ button {
   border: 2px solid $color-primary-200;
   background: transparent;
   color: $color-primary-200;
+  transition: 0.3s;
+  padding: 13px 90px 16px 90px;
   &:hover {
     background: $color-primary-200;
     color: $color-primary-100;
