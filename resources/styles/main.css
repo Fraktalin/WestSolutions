@@ -402,4 +402,17 @@ a {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+
+.offer-block-image {
+  width: 100%;
+}
+
+.offer-block-items {
+  padding-top: 24px;
+  margin-bottom: 100px;
+}
+
+.offer-block-item {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */

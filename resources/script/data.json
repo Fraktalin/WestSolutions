@@ -1,7 +1,7 @@
 [
   {
     "name": "Volkswagen Tiguan",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/volkswagenTiguan.jpg",
     "year": 2019,
     "mileage": 19855,
     "transmission": "Automatic",
@@ -12,7 +12,7 @@
   },
   {
     "name": "Toyota Highlander XLE",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/toyotaHighlanderXLE.jpg",
     "year": 2014,
     "mileage": 69000,
     "transmission": "Automatic",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Lexus RX 350 LUXURY",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/lexusRX350LUXURY.jpg",
     "year": 2017,
     "mileage": 39850,
     "transmission": "Automatic",
@@ -34,7 +34,7 @@
   },
   {
     "name": "Toyota Highlander LE A...",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/toyotaHighlanderLEA.jpg",
     "year": 2016,
     "mileage": 104000,
     "transmission": "Automatic",
@@ -45,7 +45,7 @@
   },
   {
     "name": "Hyundai Elantra",
-    "image": "../images/items/hyundaiElantra.jpg",
+    "image": "../resources/images/items/hyundaiElantra.jpg",
     "year": 2017,
     "mileage": 95000,
     "transmission": "Automatic",
@@ -56,7 +56,7 @@
   },
   {
     "name": "Mercedes-Benz GLE-Cl...",
-    "image": "../images/items/mercedes-BenzGLE-Cl.jpg",
+    "image": "../resources/images/items/mercedes-BenzGLE.jpg",
     "year": 2016,
     "mileage": 59800,
     "transmission": "Automatic",
@@ -67,7 +67,7 @@
   },
   {
     "name": "Toyota Venza AWD XLE...",
-    "image": "../images/items/toyotaVenzaAWDXLE.jpg",
+    "image": "../resources/images/items/toyotaVenzaAWDXLE.jpg",
     "year": 2015,
     "mileage": 99000,
     "transmission": "Automatic",
@@ -78,7 +78,7 @@
   },
   {
     "name": "Lexus RX 350 F-SPORT",
-    "image": "../images/items/lexusRX350F-SPORT.jpg",
+    "image": "../resources/images/items/lexusRX350F-SPORT.jpg",
     "year": 2016,
     "mileage": 86000,
     "transmission": "Automatic",
@@ -89,7 +89,7 @@
   },
   {
     "name": "Volkswagen Tiguan",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/volkswagenTiguan.jpg",
     "year": 2019,
     "mileage": 19855,
     "transmission": "Automatic",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Toyota Highlander XLE",
-    "image": "../images/items/toyotaHighlanderXLE.jpg",
+    "image": "../resources/images/items/toyotaHighlanderXLE.jpg",
     "year": 2014,
     "mileage": 69000,
     "transmission": "Automatic",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Lexus RX 350 LUXURY",
-    "image": "../images/items/lexusRX350LUXURY.jpg",
+    "image": "../resources/images/items/lexusRX350LUXURY.jpg",
     "year": 2017,
     "mileage": 39850,
     "transmission": "Automatic",
@@ -122,7 +122,7 @@
   },
   {
     "name": "Toyota Highlander LE A...",
-    "image": "../images/items/toyotaHighlanderLEA.jpg",
+    "image": "../resources/images/items/toyotaHighlanderLEA.jpg",
     "year": 2016,
     "mileage": 104000,
     "transmission": "Automatic",
@@ -133,7 +133,7 @@
   },
   {
     "name": "Volkswagen Tiguan",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/volkswagenTiguan.jpg",
     "year": 2019,
     "mileage": 19855,
     "transmission": "Automatic",
@@ -144,7 +144,7 @@
   },
   {
     "name": "Toyota Highlander XLE",
-    "image": "../images/items/toyotaHighlanderXLE.jpg",
+    "image": "../resources/images/items/toyotaHighlanderXLE.jpg",
     "year": 2014,
     "mileage": 69000,
     "transmission": "Automatic",
@@ -155,7 +155,7 @@
   },
   {
     "name": "Lexus RX 350 LUXURY",
-    "image": "../images/items/lexusRX350LUXURY.jpg",
+    "image": "../resources/images/items/lexusRX350LUXURY.jpg",
     "year": 2017,
     "mileage": 39850,
     "transmission": "Automatic",
@@ -166,18 +166,7 @@
   },
   {
     "name": "Toyota Highlander LE A...",
-    "image": "../images/items/toyotaHighlanderLEA.jpg",
-    "year": 2016,
-    "mileage": 104000,
-    "transmission": "Automatic",
-    "engine": "Gas",
-    "price": 23728,
-    "new": false,
-    "sold": false
-  },
-  {
-    "name": "",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/toyotaHighlanderLEA.jpg",
     "year": 2016,
     "mileage": 104000,
     "transmission": "Automatic",
@@ -188,7 +177,7 @@
   },
   {
     "name": "Hyundai Elantra",
-    "image": "../images/items/hyundaiElantra.jpg",
+    "image": "../resources/images/items/hyundaiElantra.jpg",
     "year": 2017,
     "mileage": 95000,
     "transmission": "Automatic",
@@ -199,7 +188,7 @@
   },
   {
     "name": "Mercedes-Benz GLE-Cl...",
-    "image": "../images/items/mercedes-BenzGLE-Cl.jpg",
+    "image": "../resources/images/items/mercedes-BenzGLE.jpg",
     "year": 2016,
     "mileage": 59800,
     "transmission": "Automatic",
@@ -210,7 +199,7 @@
   },
   {
     "name": "Toyota Venza AWD XLE...",
-    "image": "../images/items/toyotaVenzaAWDXLE.jpg",
+    "image": "../resources/images/items/toyotaVenzaAWDXLE.jpg",
     "year": 2015,
     "mileage": 99000,
     "transmission": "Automatic",
@@ -221,7 +210,7 @@
   },
   {
     "name": "Lexus RX 350 F-SPORT",
-    "image": "../images/items/lexusRX350F-SPORT.jpg",
+    "image": "../resources/images/items/lexusRX350F-SPORT.jpg",
     "year": 2016,
     "mileage": 86000,
     "transmission": "Automatic",
@@ -232,7 +221,7 @@
   },
   {
     "name": "Volkswagen Tiguan",
-    "image": "../images/items/volkswagenTiguan.jpg",
+    "image": "../resources/images/items/volkswagenTiguan.jpg",
     "year": 2019,
     "mileage": 19855,
     "transmission": "Automatic",
@@ -243,7 +232,7 @@
   },
   {
     "name": "Toyota Highlander XLE",
-    "image": "../images/items/toyotaHighlanderXLE.jpg",
+    "image": "../resources/images/items/toyotaHighlanderXLE.jpg",
     "year": 2014,
     "mileage": 69000,
     "transmission": "Automatic",
