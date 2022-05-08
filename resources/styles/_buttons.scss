@@ -26,6 +26,7 @@ button {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  transition: 0.3s;
   &:hover {
     background: transparent;
     color: $color-primary-200;
@@ -43,4 +44,41 @@ button {
   line-height: 20px;
   color: $color-primary-200;
   border: none;
+}
+@media (max-width: 1366px) {
+  .offer-button {
+    margin-top: 16px;
+  }
+  .second-button {
+    margin: 24px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .second-button {
+    margin: 24px 100px;
+  }
+}
+@media (max-width: 768px) {
+  .second-button {
+    padding: 20px 16px;
+    margin: 0;
+  }
+  .offer-button {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .second-button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .offer-button {
+    width: 100%;
+    padding: 12px;
+  }
 }

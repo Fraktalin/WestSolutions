@@ -5,6 +5,9 @@
 
 .main-form {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .form-select {
   width: 170px;
@@ -75,5 +78,46 @@
     font-size: 15px;
     line-height: 20px;
     color: $color-primary-200;
+  }
+}
+
+@media (max-width: 1366px) {
+  .qa-input {
+    width: 450px;
+  }
+}
+@media (max-width: 768px) {
+  .qa-input {
+    width: 290px;
+  }
+  .btn-group {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 425px) {
+  .btn-group {
+    width: 100%;
+    margin: 0;
+  }
+  .main-form {
+    flex-direction: column;
+  }
+  .dropdown-toggle::after {
+    margin-left: 325px;
+  }
+  .qa-input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .dropdown-toggle::after {
+    margin-left: 228px;
+  }
+  .btn-sort::after {
+    margin-left: 208px;
+  }
+}
+@media (max-width: 320px) {
+  .main-form {
+    align-items: flex-start;
   }
 }

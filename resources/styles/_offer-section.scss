@@ -114,3 +114,15 @@
     color: transparent;
   }
 }
+
+@media (max-width: 425px) {
+  .sort-block {
+    flex-direction: column;
+  }
+  .sort-block-item {
+    margin-top: 8px;
+  }
+  .dropdown-toggle::after {
+    margin-left: 315px;
+  }
+}

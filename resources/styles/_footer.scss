@@ -14,4 +14,21 @@
 .footer-nav-link {
   text-decoration: none;
   padding: 0 20px;
+  transition: 0.3s;
+}
+
+@media (max-width: 425px) {
+  .footer-nav-link {
+    font-size: 10px;
+    padding: 0 4px;
+  }
+  .main-logo {
+    width: 70%;
+  }
+  .footer-nav {
+    padding-top: 10px;
+  }
+  .social-block {
+    display: flex;
+  }
 }

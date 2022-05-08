@@ -20,7 +20,7 @@
 .subscribe-block-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .accordion-button::after {
   background-image: url("../images/plus.svg");
@@ -58,4 +58,55 @@
 }
 .accordion-button:not(.collapsed) {
   background: $color-secondary-500;
+}
+
+@media (max-width: 768px) {
+  .subscribe-text {
+    width: 340px;
+  }
+  .subscribe-block-wrap {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .subscribe-title {
+    text-align: center;
+  }
+  .dropdown-toggle::after {
+    margin-left: 228px;
+  }
+  .btn-sort::after {
+    margin-left: 208px;
+  }
+  .dropdown-toggle::after {
+    margin-left: 330px;
+  }
+  .btn-sort::after {
+    margin-left: 312px;
+  }
+}
+
+@media (max-width: 375px) {
+  .subscribe-text {
+    width: 100%;
+  }
+  .dropdown-toggle::after {
+    margin-left: 282px;
+  }
+  .btn-sort::after {
+    margin-left: 264px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribe-text {
+    width: 100%;
+  }
+  .dropdown-toggle::after {
+    margin-left: 230px;
+  }
+  .btn-sort::after {
+    margin-left: 212px;
+  }
 }
