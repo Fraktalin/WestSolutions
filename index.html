@@ -32,21 +32,42 @@
     <section class="main-section">
       <div class="container">
         <header class="main-header">
-          <a href="#"
-            ><img class="main-logo" src="./resources/images/logo.png" alt=""
-          /></a>
-
+          <a aria-label="main logo" href="#">
+            <picture>
+              <source srcset="./resources/images/logo.webp" type="image/webp" />
+              <source srcset="./resources/images/logo.png" type="image/png" />
+              <img
+                class="main-logo"
+                src="./resources/images/logo.png"
+                alt="main logo"
+              />
+            </picture>
+          </a>
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li class="main-nav-list-item">
                 <a href="#" class="main-list-link">Inventory</a>
+              </li>
+              <li class="main-nav-list-item">
                 <a href="#" class="main-list-link">Financing</a>
+              </li>
+              <li class="main-nav-list-item">
                 <a href="#" class="main-list-link">Contacts</a>
-                <a href="#" class="main-list-link link-icon"
-                  ><span class="icon-facebook"></span
+              </li>
+              <li class="main-nav-list-item">
+                <a
+                  href="#"
+                  aria-label="link facebook"
+                  class="main-list-link link-icon icon-header"
+                  ><span aria-hidden="true" class="icon-facebook"></span
                 ></a>
-                <a href="#" class="main-list-link link-icon"
-                  ><span class="icon-instagram"></span
+              </li>
+              <li class="main-nav-list-item">
+                <a
+                  href="#"
+                  aria-label="link instagram"
+                  class="main-list-link link-icon"
+                  ><span aria-hidden="true" class="icon-instagram"></span
                 ></a>
               </li>
             </ul>
@@ -160,7 +181,7 @@
               ><input
                 class="main-checkbox"
                 type="checkbox"
-                name=""
+                name="input"
                 id="available"
               /><span class="checkbox-desc">Instantly available vehicles</span>
             </label>
@@ -173,7 +194,7 @@
               <div class="btn-group sort-group">
                 <button
                   type="button"
-                  class="btn dropdown-toggle custom-select"
+                  class="btn dropdown-toggle custom-select btn-sort"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -223,7 +244,7 @@
                 publish new vehicle offers.
               </p>
             </div>
-            <form action="" class="subscribe-form">
+            <form action="1" class="subscribe-form">
               <input
                 class="qa-input"
                 type="text"
@@ -444,29 +465,43 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-wrap">
-          <a href="#"
-            ><img class="main-logo" src="./resources/images/logo.png" alt=""
-          /></a>
+          <a aria-label="main logo" href="#">
+            <picture>
+              <source srcset="./resources/images/logo.webp" type="image/webp" />
+              <source srcset="./resources/images/logo.png" type="image/png" />
+              <img
+                class="main-logo"
+                src="./resources/images/logo.png"
+                alt="main logo"
+              />
+            </picture>
+          </a>
 
           <nav class="footer-nav">
             <ul class="footer-nav-list">
               <li class="footer-nav-item">
-                <a href="" class="footer-nav-link">Inventory</a>
+                <a href="#" class="footer-nav-link">Inventory</a>
               </li>
               <li class="footer-nav-item">
-                <a href="" class="footer-nav-link">Financing</a>
+                <a href="#" class="footer-nav-link">Financing</a>
               </li>
               <li class="footer-nav-item">
-                <a href="" class="footer-nav-link">Contacts</a>
+                <a href="#" class="footer-nav-link">Contacts</a>
               </li>
             </ul>
           </nav>
           <div class="social-block">
-            <a href="#" class="main-list-link link-icon"
-              ><span class="icon-facebook"></span
+            <a
+              href="#"
+              aria-label="link facebook"
+              class="main-list-link link-icon"
+              ><span aria-hidden="true" class="icon-facebook"></span
             ></a>
-            <a href="#" class="main-list-link link-icon"
-              ><span class="icon-instagram"></span
+            <a
+              href="#"
+              aria-label="link instagram"
+              class="main-list-link link-icon"
+              ><span aria-hidden="true" class="icon-instagram"></span
             ></a>
           </div>
         </div>

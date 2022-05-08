@@ -1,6 +1,7 @@
 .main-section {
   background: url("../images/mainImage.jpg");
   height: 686px;
+  background-position: center;
 }
 .main-header {
   display: flex;
@@ -16,12 +17,17 @@
   font-size: 15px;
   line-height: 20px;
   color: $color-primary-200;
+  transition: 0.3s;
 }
 .main-list-link {
   margin-right: 40px;
 }
+.icon-header {
+  padding-right: 8px;
+}
 .link-icon {
   margin-right: 24px;
+
   &:last-of-type {
     margin-right: 0;
   }
@@ -50,4 +56,41 @@
 }
 .top-button {
   margin-top: 72px;
+}
+
+.main-nav-list {
+  display: flex;
+}
+@media (max-width: 425px) {
+  .main-list-link {
+    margin-right: 4px;
+    font-size: 12px;
+  }
+  .main-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .icon-facebook {
+    font-size: 10px;
+  }
+  .icon-instagram {
+    font-size: 11px;
+  }
+  .main-section {
+    height: auto;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-title {
+    font-size: 36px;
+  }
+
+  .main-paragraph {
+    width: 50%;
+    margin: 0;
+  }
 }

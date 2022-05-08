@@ -27,17 +27,22 @@ readTextFile("./resources/script/data.json", function (text) {
 function drowCards(data) {
   data.forEach((item, indx) => {
     let shopItem = `
-    <a class="offer-block-item col-sm-3">
+    <a href="#" class="offer-block-item col-lg-3 col-md-6 col-sm-12">
       <div class="offer-block-wrap">
         <div class="image-item-wrap ${item.new ? `new` : ``} ${
       item.sold ? `sold` : ""
     }">
+        <picture>
+          <source srcset="${item.image}.webp" type="image/webp" />
+          <source srcset="${item.image}.jpg" type="image/jpg" />
           <img
-            src="${item.image}"
-            alt="car ${item.name}"
-            class="offer-block-image"
-          />
-        </div>
+          src="${item.image}"
+          alt="car ${item.name}"
+          class="offer-block-image"
+          loading="lazy"
+        />
+        </picture>
+      </div>
         <div class="info-item-wrap">
           <div class="top-item-info">
             <span class="year-item">${item.year}</span>
