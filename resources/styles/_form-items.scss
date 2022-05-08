@@ -2,3 +2,63 @@
   border-radius: $radius;
   border: 1px solid #bdbdbd;
 }
+
+.main-form {
+  display: flex;
+}
+.form-select {
+  width: 170px;
+}
+.form-select option:checked {
+  color: $color-primary-300;
+}
+.custom-select {
+  background: white;
+  padding: 3px 65px 3px 10px;
+  width: 170px;
+  border: 1px solid #bdbdbd;
+  border-radius: $radius;
+}
+.custom-select:focus {
+  box-shadow: none;
+}
+.dropdown-toggle::after {
+  margin-left: 103px;
+}
+.dropdown-menu {
+  border-radius: $radius;
+  width: 170px;
+}
+.dropdown-item:hover {
+  color: $color-primary-300;
+  background: none;
+}
+.btn-group {
+  width: 170px;
+  margin-right: 20px;
+}
+.main-checkbox {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-desc {
+  padding-left: 8px;
+  color: $color-secondary-200;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.sort-group,
+.sort-dropdown-menu {
+  width: 190px;
+}
+.sort-dropdown-item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 12px 12px 0 12px;
+}
+.sort-dropdown-item:first-of-type {
+  padding-top: 0;
+}

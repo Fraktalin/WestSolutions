@@ -2,38 +2,108 @@
   margin-top: 98px;
   text-align: center;
 }
-
-.main-form {
+.sort-block {
+  margin-top: 25px;
   display: flex;
+  justify-content: space-between;
 }
-.form-select {
-  width: 170px;
+.checkbox-label {
+  display: flex;
+  align-items: center;
 }
-.form-select option:checked {
-  color: $color-primary-300;
+
+.icon-sort .path1:before,
+.icon-sort .path2:before {
+  font-size: 20px;
 }
-.custom-select {
-  background: white;
-  padding: 3px 65px 3px 10px;
-  width: 170px;
-  border: 1px solid #bdbdbd;
-  border-radius: $radius;
+.offer-block-wrap {
+  display: flex;
+  flex-direction: column;
+  background: $color-secondary-500;
+  box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
 }
-.custom-select:focus {
-  box-shadow: none;
+.year-item {
+  color: $color-secondary-200;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Poppins";
 }
-.dropdown-toggle::after {
-  margin-left: 103px;
+.info-item-wrap {
+  padding: 20px;
 }
-.dropdown-menu {
-  border-radius: $radius;
-  width: 170px;
+.name-item {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: $color-primary-100;
+  display: inline-block;
+  margin: 0;
+  margin-left: 8px;
 }
-.dropdown-item:hover {
-  color: $color-primary-300;
-  background: none;
+.feature-desc-item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: $color-secondary-200;
 }
-.btn-group {
-  width: 170px;
-  margin-right: 20px;
+.price-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-primary-100;
+}
+.top-item-info {
+  margin-bottom: 16px;
+}
+.mid-item-info {
+  margin-bottom: 26px;
+}
+.new {
+  position: relative;
+  &::before {
+    content: "New";
+    background: $color-primary-100;
+    color: $color-primary-200;
+    border-radius: 0 $radius $radius 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 3px 20px;
+    z-index: 2;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.sold {
+  position: relative;
+  &::before {
+    content: "SOLD";
+    background: none;
+    color: $color-secondary-500;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+  }
+}
+.sold img {
+  filter: grayscale(100%);
+}
+.offer-block-image {
+  width: 100%;
+}
+.offer-block-items {
+  padding-top: 24px;
+  margin-bottom: 100px;
+}
+.offer-block-item {
+  margin-bottom: 20px;
 }
