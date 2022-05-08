@@ -36,7 +36,7 @@ function drowCards(data) {
           <source srcset="${item.image}.webp" type="image/webp" />
           <source srcset="${item.image}.jpg" type="image/jpg" />
           <img
-          src="${item.image}"
+          src="${item.image}.jpg"
           alt="car ${item.name}"
           class="offer-block-image"
           loading="lazy"
