@@ -1,0 +1,24 @@
+.subscribe-block {
+  background: $color-primary-100;
+  padding: 40px 0 46px 0;
+}
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  margin: 0;
+  color: $color-primary-200;
+}
+.subscribe-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-primary-200;
+  width: 430px;
+  padding-top: 20px;
+}
+.subscribe-block-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
