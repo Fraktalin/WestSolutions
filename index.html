@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta
       name="description"
       content="Monza Motorsports is a boutique-style dealership specializing in premium imports"
@@ -14,8 +12,10 @@
       name="keywords"
       content="Monza, Motorsports, Monza Motorsports, cars"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Poppins:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -153,14 +153,129 @@
             <button class="offer-button">40 cars</button>
           </form>
           <div class="sort-block">
-            <label for="available"
+            <label class="checkbox-label" for="available"
               ><input
                 class="main-checkbox"
                 type="checkbox"
                 name=""
                 id="available"
-              /><span>Instantly available vehicles</span>
+              /><span class="checkbox-desc">Instantly available vehicles</span>
             </label>
+            <div class="sort-block-item">
+              <span class="sort-block-text">Sort by </span>
+              <span class="icon-sort"
+                ><span class="path1"></span> <span class="path2"></span
+              ></span>
+
+              <div class="btn-group sort-group">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle custom-select"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Choice
+                </button>
+                <ul class="dropdown-menu sort-dropdown-menu">
+                  <li class="dropdown-item sort-dropdown-item">
+                    Publication date (ascending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Publication date (descending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Price (ascending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Price (descending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Mileage (ascending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Mileage (descending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Performance (ascending)
+                  </li>
+                  <li class="dropdown-item sort-dropdown-item">
+                    Performance (descending)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="offer-block-items row">
+            <a class="offer-block-item col-sm-3">
+              <div class="offer-block-wrap">
+                <div class="image-item-wrap">
+                  <img
+                    src="./resources/images/items/volkswagenTiguan.jpg"
+                    alt=""
+                    class="offer-block-image"
+                  />
+                </div>
+                <div class="info-item-wrap">
+                  <div class="top-item-info">
+                    <span class="year-item">2019</span>
+                    <h4 class="name-item">Volkswagen Tiguan</h4>
+                  </div>
+                  <div class="mid-item-info">
+                    <span class="feature-desc-item">19,855 km |</span>
+                    <span class="feature-desc-item"> Automatic |</span>
+                    <span class="feature-desc-item"> Diesel</span>
+                  </div>
+                  <span class="price-item">$34,888</span>
+                </div>
+              </div>
+            </a>
+            <a class="offer-block-item col-sm-3">
+              <div class="offer-block-wrap">
+                <div class="image-item-wrap new">
+                  <img
+                    src="./resources/images/items/volkswagenTiguan.jpg"
+                    alt=""
+                    class="offer-block-image"
+                  />
+                </div>
+                <div class="info-item-wrap">
+                  <div class="top-item-info">
+                    <span class="year-item">2019</span>
+                    <h4 class="name-item">Volkswagen Tiguan</h4>
+                  </div>
+                  <div class="mid-item-info">
+                    <span class="feature-desc-item">19,855 km |</span>
+                    <span class="feature-desc-item"> Automatic |</span>
+                    <span class="feature-desc-item"> Diesel</span>
+                  </div>
+                  <span class="price-item">$34,888</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="offer-block-item col-sm-3">
+              <div class="offer-block-wrap">
+                <div class="image-item-wrap sold">
+                  <img
+                    src="./resources/images/items/volkswagenTiguan.jpg"
+                    alt=""
+                    class="offer-block-image"
+                  />
+                </div>
+                <div class="info-item-wrap">
+                  <div class="top-item-info">
+                    <span class="year-item">2019</span>
+                    <h4 class="name-item">Volkswagen Tiguan</h4>
+                  </div>
+                  <div class="mid-item-info">
+                    <span class="feature-desc-item">19,855 km |</span>
+                    <span class="feature-desc-item"> Automatic |</span>
+                    <span class="feature-desc-item"> Diesel</span>
+                  </div>
+                  <span class="price-item">$34,888</span>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
