@@ -489,4 +489,49 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.accordion-button::after {
+  background-image: url("../images/plus.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/minus.svg");
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.accordion-item {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button {
+  background: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.accordion-body {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+          box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #df4e3c;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
