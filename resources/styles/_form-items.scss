@@ -62,3 +62,18 @@
 .sort-dropdown-item:first-of-type {
   padding-top: 0;
 }
+.qa-input {
+  width: 505px;
+  height: 54px;
+  border: 1px solid $color-secondary-300;
+  border-radius: $radius;
+  background: none;
+  margin-right: 20px;
+  padding: 16px 22px 20px 16px;
+  &::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: $color-primary-200;
+  }
+}

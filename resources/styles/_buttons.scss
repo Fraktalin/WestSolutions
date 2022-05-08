@@ -19,11 +19,13 @@ button {
   }
 }
 .second-button {
-  font-weight: 400;
-  font-size: 15px;
   border: 2px solid $color-primary-200;
   background: $color-primary-200;
   color: $color-primary-100;
+  padding: 16px 44px 18px 44px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
   &:hover {
     background: transparent;
     color: $color-primary-200;

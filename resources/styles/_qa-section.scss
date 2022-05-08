@@ -1,0 +1,61 @@
+.subscribe-block {
+  background: $color-primary-100;
+  padding: 40px 0 46px 0;
+}
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  margin: 0;
+  color: $color-primary-200;
+}
+.subscribe-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-primary-200;
+  width: 430px;
+  padding-top: 20px;
+}
+.subscribe-block-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-button::after {
+  background-image: url("../images/plus.svg");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/minus.svg");
+  transform: rotate(0);
+}
+.accordion-item {
+  background: none;
+  border: none;
+  border-bottom: 1px solid $color-secondary-400;
+}
+.accordion-button:not(.collapsed),
+.accordion-button {
+  background: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-primary-100;
+}
+.accordion-body {
+  background: $color-secondary-500;
+  box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: $color-primary-300;
+}
+.accordion-button:not(.collapsed) {
+  background: $color-secondary-500;
+}
