@@ -78,6 +78,16 @@ button {
   color: #000000;
 }
 
+.offer-button {
+  background: #df4e3c;
+  padding: 14px 120px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #f8f8f8;
+  border: none;
+}
+
 .main-section {
   background: url("../images/mainImage.jpg");
   height: 686px;
@@ -156,6 +166,7 @@ img {
 
 body {
   font-family: "Noto Sans", sans-serif;
+  background: #e5e5e5;
 }
 
 *,
@@ -179,5 +190,61 @@ button {
 
 a {
   color: #f8f8f8;
+}
+
+.form-select {
+  border-radius: 15px;
+  border: 1px solid #bdbdbd;
+}
+
+.secondary-title {
+  margin-top: 98px;
+  text-align: center;
+}
+
+.main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-select {
+  width: 170px;
+}
+
+.form-select option:checked {
+  color: #df4e3c;
+}
+
+.custom-select {
+  background: white;
+  padding: 3px 65px 3px 10px;
+  width: 170px;
+  border: 1px solid #bdbdbd;
+  border-radius: 15px;
+}
+
+.custom-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  margin-left: 103px;
+}
+
+.dropdown-menu {
+  border-radius: 15px;
+  width: 170px;
+}
+
+.dropdown-item:hover {
+  color: #df4e3c;
+  background: none;
+}
+
+.btn-group {
+  width: 170px;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=main.css.map */
