@@ -40,6 +40,9 @@
   display: inline-block;
   margin: 0;
   margin-left: 8px;
+  white-space: nowrap; /* Текст не переносится */
+  overflow: hidden; /* Обрезаем всё за пределами блока */
+  text-overflow: ellipsis;
 }
 .feature-desc-item {
   font-weight: 300;
@@ -55,6 +58,7 @@
 }
 .top-item-info {
   margin-bottom: 16px;
+  display: flex;
 }
 .mid-item-info {
   margin-bottom: 26px;
@@ -106,4 +110,7 @@
 }
 .offer-block-item {
   margin-bottom: 20px;
+  &:hover {
+    color: transparent;
+  }
 }

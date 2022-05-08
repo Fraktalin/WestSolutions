@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main-title {
   font-style: normal;
   font-weight: 700;
@@ -33,6 +34,10 @@
   font-size: 15px;
   line-height: 20px;
   color: #f8f8f8;
+}
+
+a:hover {
+  color: #df4e3c;
 }
 
 button {
@@ -374,6 +379,11 @@ a {
   display: inline-block;
   margin: 0;
   margin-left: 8px;
+  white-space: nowrap;
+  /* Текст не переносится */
+  overflow: hidden;
+  /* Обрезаем всё за пределами блока */
+  text-overflow: ellipsis;
 }
 
 .feature-desc-item {
@@ -392,6 +402,9 @@ a {
 
 .top-item-info {
   margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mid-item-info {
@@ -454,6 +467,10 @@ a {
 
 .offer-block-item {
   margin-bottom: 20px;
+}
+
+.offer-block-item:hover {
+  color: transparent;
 }
 
 .subscribe-block {
@@ -533,5 +550,34 @@ a {
 
 .accordion-button:not(.collapsed) {
   background: #ffffff;
+}
+
+.main-footer {
+  margin-top: 200px;
+  background: #000000;
+  padding: 36px 0;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  padding: 0 20px;
 }
 /*# sourceMappingURL=main.css.map */

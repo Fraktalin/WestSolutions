@@ -1,0 +1,17 @@
+.main-footer {
+  margin-top: 200px;
+  background: $color-primary-100;
+  padding: 36px 0;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav-list {
+  display: flex;
+}
+.footer-nav-link {
+  text-decoration: none;
+  padding: 0 20px;
+}
